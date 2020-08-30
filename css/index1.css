@@ -1,0 +1,56 @@
+.examples-album{
+    font-size: 3em;
+    font-weight: 100;
+}
+.examples-text{
+    font-size: 1.4em;
+}
+.example{
+    height: 75vh;
+}
+.header-pricing, .company-column{
+    height: 10vh;
+    box-shadow: 0px 5px 5px -5px black;
+}
+.signup{
+    background-color: transparent;
+}
+.navigation-top:hover{
+    text-decoration: underline;
+}
+.price-title{
+    font-size: 3.4em;
+    font-weight: 100;
+}
+.price-para{
+    font-size: 1.35em;
+    font-weight: 100;
+}
+.footer-first-list{
+    line-height: 0.5;
+}
+.footer-first-list:hover{
+    text-decoration: underline;
+}
+.heading-checkout{
+    width: 60vw;
+}
+.heading-checkout p{
+    font-size: 1.2em;
+}
+.a-badge{
+    float: right;
+}
+.header-title-carousel{
+    text-decoration: none;
+}
+.navigation-blog:hover{
+    text-decoration: underline;
+}
+.blog{
+    font-family: serif;
+}
+.login-with-image{
+    margin: 0;
+    padding: 0;
+}

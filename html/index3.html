@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- js bootstrap -->
+    <script src="../js/all.js"></script>
+    <!-- font awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet"> 
+    <!-- css -->
+    <link rel="stylesheet" href="../css/index1.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid bg-dark">
+            <div class="row ">
+                <!-- NAVBAR navbar-brand adauga logo plus search-->
+                <div class="col-md-12 d-flex align-items-center justify-content-between">
+                    <nav class="navbar navbar-expand d-flex align-items center">
+                        <a href="#" class="text-white navbar-brand">Carousel</a>
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link text-white">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary">
+                                    Link
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link disabled">
+                                    Disabled
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <input type="text" class="form-control mr-2" name="search" placeholder="Search">
+                            <button class="btn-outline-success py-2 rounded" style="background-color: transparent;">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+    <!-- main -->
+    <main class="main">
+        <!-- carousel -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div id="my-carousel" class="carousel slide" data-ride="carusel">
+                            <div class="container">
+                                    <!-- indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="my-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="my-carousel" data-slide-to="1"></li>
+                                    <li data-target="my-carousel" data-slide-to="2"></li>
+                                </ol>
+                                <!-- Interior of carousel -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active text-left">
+                                        <h1>
+                                            Example headline.
+                                        </h1>
+                                        <p>
+                                            Cras justo odio, dapibus ac facilisis in, egestas eget 
+                                            quam. Donec id elit non mi porta gravida at eget metus. 
+                                            Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                        </p>
+                                        <button class="btn-primary text-white btn-lg">Sign up today</button>
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <h1>
+                                            Another example headline.
+                                        </h1>
+                                        <p>
+                                            Cras justo odio, dapibus ac facilisis in, egestas eget 
+                                            quam. Donec id elit non mi porta gravida at eget metus. 
+                                            Nullam id dolor id nibh ultricies vehicula ut id elit.  
+                                        </p>
+                                        <button class="btn-primary text-white btn-lg">Learn more</button>
+                                    </div>
+                                    <div class="carousel-item text-right">
+                                        <h1>
+                                            One more for good measure.
+                                        </h1>
+                                        <p>
+                                            Cras justo odio, dapibus ac facilisis in, egestas eget 
+                                            quam. Donec id elit non mi porta gravida at eget metus. 
+                                            Nullam id dolor id nibh ultricies vehicula ut id elit. 
+                                        </p>
+                                        <button class="btn-primary text-white btn-lg">Browse gallery</button>
+                                    </div>
+                                </div>
+                                <!-- Indicators -->
+                                <a href="#my-carousel" class="carousel-control-prev" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#my-carousel" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of carousel -->
+        <!-- 3 collumns img text btn -->
+        <div class="container py-5">
+            <div class="row">
+                <!-- first collum -->
+                <div class="col-md-4 text-center">
+                    <img src="../img/grey.jpg" alt="" class="rounded-circle ">
+                    <h1>Heading</h1>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+                        Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+                        porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus 
+                        magna.</p>
+                    <button class="btn btn-secondary text-white">
+                        View details>>
+                    </button>
+                </div>
+                <!-- end of first collum -->
+                <!-- first collum -->
+                <div class="col-md-4 text-center">
+                    <img src="../img/grey.jpg" alt="" class="rounded-circle ">
+                    <h1>Heading</h1>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, 
+                        eget lacinia odio sem nec elit. Cras mattis consectetur purus sit 
+                        amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor 
+                        mauris condimentum nibh..</p>
+                    <button class="btn btn-secondary text-white">
+                        View details>>
+                    </button>
+                </div>
+                <!-- end of first collum -->
+                <!-- first collum -->
+                <div class="col-md-4 text-center">
+                    <img src="../img/grey.jpg" alt="" class="rounded-circle ">
+                    <h1>Heading</h1>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas 
+                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce 
+                        dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
+                        fermentum massa justo sit amet risus.</p>
+                    <button class="btn btn-secondary text-white">
+                        View details>>
+                    </button>
+                </div>
+                <!-- end of first collum -->
+            </div>
+        </div>
+        
+        <div class="container">
+            <hr>
+            <div class="row align-items-center">
+                <!-- text and images -->
+                <div class="col-md-7">
+                    <h1 class="display-4">
+                        First featurette heading.<span class="text-secondary">It'll blow your 
+                            mind.</span>
+                    </h1>
+                    <p class="text-secondary lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula 
+                        porta felis euismod semper. Praesent commodo cursus magna, vel 
+                        scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="../img/index1.svg" alt="" class="img-fluid ">
+                </div>
+                <!-- finish first text image -->
+                <!-- text and images -->
+                <div class="col-md-5">
+                    <img src="../img/index1.svg" alt="" class="img-fluid ">
+                </div>
+                <div class="col-md-7">
+                    <h1 class="display-4">
+                        Oh yeah, it's that good. <span class="text-secondary">See for yourself.</span>
+                    </h1>
+                    <p class="text-secondary lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula 
+                        porta felis euismod semper. Praesent commodo cursus magna, vel 
+                        scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <!-- finish first text image -->
+                <!-- text and images -->
+                <div class="col-md-7">
+                    <h1 class="display-4">
+                        And lastly, this one.  <span class="text-secondary">Checkmate.</span>
+                    </h1>
+                    <p class="text-secondary lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula 
+                        porta felis euismod semper. Praesent commodo cursus magna, vel 
+                        scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="../img/index1.svg" alt="" class="img-fluid ">
+                </div>
+                <!-- finish first text image -->
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            
+                <a href="#" class="float-right">Back to top</a>
+                <p>© 2017-2018 Company, Inc. ·<a href="#">Privacy </a>
+                    <a href="#">Terms   </a></p>
+        </div>            
+    </footer>
+
+
+    <!-- javascript si jquerry -->
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
